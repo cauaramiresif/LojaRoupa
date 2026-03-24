@@ -90,7 +90,7 @@ app.get('/meias', (req, res) => {
         <a href="/camisas">Camisas</a>
         <a href="/bermudas">Bermudas</a>
         <a href="/meias">Meias</a>
-        <p>Meia Branca: R$ 10,00. <a href="/meias/meiapreta">Ver mais</a></p>
+        <p>Meia Branca: R$ 10,00. <a href="/meias/meiabranca">Ver mais</a></p>
         <p>Meia Preta: R$ 10,00. <a href="/meias/meiapreta">Ver mais </a></p>
     </div>
     `
