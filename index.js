@@ -5,8 +5,8 @@ const PORT = 3000
 app.get('/', (req, res) => {
     const html = `
     <div>
-        <a href="/camisas">Camisas</a>
-        <a href="/bermudas">Bermudas</a>
+        <a href="/camisas">Camisas</a> <br>
+        <a href="/bermudas">Bermudas</a> <br>
         <a href="/meias">Meias</a>
     </div>
     `
@@ -19,7 +19,7 @@ app.get('/camisas', (req, res) => {
         <a href="/camisas">Camisas</a>
         <p>Polo Branca: R$ 30,00. <a href="/camisas/polobranca">Ver mais</a></p>
         <p>Regata do Chaves: R$ 100,00. <a href="/camisas/regatadochaves">Ver mais </a></p>
-        <a href="/bermudas">Bermudas</a>
+        <a href="/bermudas">Bermudas</a> <br>
         <a href="/meias">Meias</a>
     </div>
     `
@@ -52,7 +52,7 @@ app.get('/camisas/regatadochaves', (req, res) => {
 app.get('/bermudas', (req, res) => {
     const html = `
     <div>
-        <a href="/camisas">Camisas</a>
+        <a href="/camisas">Camisas</a> <br>
         <a href="/bermudas">Bermudas</a>
         <p>Bermuda Branca: R$ 20,00. <a href="/bermudas/bermudabranca">Ver mais</a></p>
         <p>Bermuda do Quico: R$ 80,00. <a href="/bermudas/bermudadoquico">Ver mais </a></p>
@@ -87,8 +87,8 @@ app.get('/bermudas/bermudadoquico', (req, res) => {
 app.get('/meias', (req, res) => {
     const html = `
     <div>
-        <a href="/camisas">Camisas</a>
-        <a href="/bermudas">Bermudas</a>
+        <a href="/camisas">Camisas</a> <br>
+        <a href="/bermudas">Bermudas</a> <br>
         <a href="/meias">Meias</a>
         <p>Meia Branca: R$ 10,00. <a href="/meias/meiabranca">Ver mais</a></p>
         <p>Meia Preta: R$ 10,00. <a href="/meias/meiapreta">Ver mais </a></p>
